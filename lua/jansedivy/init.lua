@@ -87,7 +87,15 @@ local groups = {
   qfLineNr     = { fg = colors.yellow },
 
   DiagnosticError = { fg = colors.red },
- }
+  DiagnosticWarn  = { fg = colors.yellow },
+  DiagnosticInfo  = { fg = colors.blue },
+  DiagnosticHint  = { fg = colors.aqua },
+  DiagnosticOk    = { fg = colors.green },
+
+  TelescopeBorder = { fg = colors.blue, bg = colors.background },
+
+  QuickFixLine = { bg = "#30577e" },
+}
 
 function M.load()
   vim.cmd.hi("clear")
