@@ -4,7 +4,7 @@ local colors = {
   background = "#222426",
   foreground = "#C1C3C2",
   selection  = "#3B3F44",
-  line       = "#3B3F44",
+  line       = "#2a2d30",
   comment    = "#6C747B",
   red        = "#C36364",
   orange     = "#EA9A67",
@@ -85,7 +85,7 @@ local groups = {
   Underlined   = { fg = colors.blue },
   Ignore       = { fg = colors.none },
   Error        = { fg = colors.red, bg = colors.darkred, underline = true },
-  Todo         = { fg = colors.addfg },
+  Todo         = { fg = "#d7ffaf" },
   qfLineNr     = { fg = colors.yellow },
 
   DiagnosticError = { fg = colors.red },
